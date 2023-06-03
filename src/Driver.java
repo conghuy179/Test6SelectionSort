@@ -12,7 +12,7 @@ public class Driver {
     public void run() {
         do {
             System.out.println("PHAN CONG HUY - FX16513");
-            System.out.println("Enter number of array (1 to 10): ");
+            System.out.println("Enter the number of elements in array (1 to 10): ");
             selection = sc.nextInt();
             if (!isValid(selection)) {
                 System.out.println("Only type number from 1 to 10. Try again.");
